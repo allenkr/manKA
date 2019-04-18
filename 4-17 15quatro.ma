@@ -1,6 +1,6 @@
 //Maya ASCII 2018ff09 scene
 //Name: 4-17 15quatro.ma
-//Last modified: Thu, Apr 18, 2019 12:44:50 AM
+//Last modified: Thu, Apr 18, 2019 12:46:25 AM
 //Codeset: 1252
 requires maya "2018ff09";
 requires "mtoa" "3.0.1.1";
@@ -15,15 +15,15 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "444C68F6-4ED4-3C21-DBB5-C1B0C33900CF";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -43.378784758612994 10.759709149186017 -17.628859166960314 ;
-	setAttr ".r" -type "double3" 1072.2387223800354 13210.691699472409 0 ;
+	setAttr ".t" -type "double3" -26.855218957006862 20.106244621984384 -52.364029204815431 ;
+	setAttr ".r" -type "double3" 1063.8387223798736 13170.691699471656 0 ;
 	setAttr ".rp" -type "double3" 1.1102230246251565e-16 0 0 ;
 	setAttr ".rpt" -type "double3" -2.4133742853356639e-15 7.330306577903926e-17 1.0510022449765189e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "229ABF1D-4A88-D2E6-BCD3-49B45EC24F15";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 43.125224207815428;
+	setAttr ".coi" 55.023639209083981;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
